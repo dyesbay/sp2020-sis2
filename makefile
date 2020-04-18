@@ -39,7 +39,7 @@ dc:
 ds:
 	rm bin/dfs
 	$(CC) -o bin/dfs -Iheaders headers/*.c dfs.c $(CFLAGS) $(LIBS)
-	gdb -tui bin/dfs --args bin/dfs /DFS1 10001
+	gdb -tui bin/dfs --args bin/dfs /DFS1 9001
 
 client:
 	rm bin/dfc
